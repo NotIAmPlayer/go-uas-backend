@@ -11,7 +11,7 @@ var DB *sql.DB
 
 func ConnectDatabase() {
 	var err error
-	DB, err = sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/rapat")
+	DB, err = sql.Open("mysql", "root:@tcp(autorack.proxy.rlwy.net:33157)/rapat")
 
 	if err != nil {
 		log.Fatal(err)

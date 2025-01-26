@@ -57,5 +57,5 @@ func main() {
 	locations.PUT("/:id", controllers.PutLocation)
 	locations.DELETE("/:id", controllers.DeleteLocation)
 
-	r.Run("autorack.proxy.rlwy.net")
+	r.Run("autorack.proxy.rlwy.net:8080")
 }

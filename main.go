@@ -57,5 +57,5 @@ func main() {
 	locations.PUT("/:id", controllers.PutLocation)
 	locations.DELETE("/:id", controllers.DeleteLocation)
 
-	r.Run("go-uas-backend-production.up.railway.app:8080")
+	r.Run(":8080")
 }
